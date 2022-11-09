@@ -10,25 +10,25 @@ public class GradeReport {
 
         int degree = scan.nextInt();
         scan.close();
-        String score = "A";
+        String grade = "A";
 
 
         if (degree >= 0 && degree <= 100) {
 
          if (degree >= 0 && degree <= 50) {
-            score = "F";
+            grade = "F";
         } else if (degree <= 60) {
-            score = "D";
+            grade = "D";
         } else if (degree <= 70) {
-            score = "C";
+            grade = "C";
         } else if (degree <= 80) {
-            score = "B";
+            grade = "B";
         } else {
-            score = "A";
+            grade = "A";
         }   } else {
-            score= "invalid";}
+            grade= "invalid";}
 
 
-        System.out.println("Your degree is:" + score);
+        System.out.println("Your degree is:" + grade);
 
             }}

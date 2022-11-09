@@ -7,27 +7,27 @@ public class GradeCalculator {
 
         Scanner scan= new Scanner(System.in);
     while (true){
-    System.out.println("Enter your score");
-    int score = scan.nextInt();
+    System.out.println("Enter your grade");
+    int grade = scan.nextInt();
 
-        if (score < 0 || score > 100) {
+        if (grade < 0 || grade > 100) {
             System.err.println("Invalid entry:");
             System.exit(0);
         }
 
-    if (score >= 90) {
+    if (grade >= 90) {
         System.out.println("A");
         break;
     }
-   else if (score >= 80) {
+   else if (grade >= 80) {
         System.out.println("B");
         break;
     }
-    else  if (score >= 70) {
+    else  if (grade >= 70) {
         System.out.println("C");
         break;
     }
-   else  if (score >= 60) {
+   else  if (grade >= 60) {
         System.out.println("D");
         break;
     } else {
@@ -42,8 +42,8 @@ public class GradeCalculator {
 
 /*
 4. Write a program for grade calculator:
-			1. Ask the user "Enter your score"
-				If user enters invalid score, terminate the program after displaying the error message "Invalid Entry"
+			1. Ask the user "Enter your grade"
+				If user enters invalid grade, terminate the program after displaying the error message "Invalid Entry"
 
 			 2. Display the grade of the student.
 			 		90 ~ 100 ==> A
