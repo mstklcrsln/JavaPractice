@@ -1,6 +1,4 @@
-package octoberStudiesAndHomeworks.day22_Tasks;
-
-import java.util.Arrays;
+package NovemberStudiesAndTasks.day22.day22_Tasks;
 
 public class Task1_ReverseSentence {
     public static void main(String[] args) {

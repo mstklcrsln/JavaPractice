@@ -1,4 +1,4 @@
-package NovemberStudiesAndTasks.day22;
+package NovemberStudiesAndTasks.day22.day23_Tasks;
 
 public class Day23_MethodTasks1 {
     public static void main(String[] args) {

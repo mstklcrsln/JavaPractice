@@ -1,4 +1,4 @@
-package officeHoursWithZulphikar;
+package officeHours;
 
 public class Omer {
     public static void main(String[] args) {
