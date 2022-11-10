@@ -1,4 +1,4 @@
-package NovemberStudiesAndTasks.day22.day25_Tasks;
+package novemberStudiesAndTasks.day25_Tasks;
 
 import java.util.Arrays;
 

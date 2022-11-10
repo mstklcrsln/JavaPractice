@@ -1,4 +1,4 @@
-package NovemberStudiesAndTasks.day22;
+package novemberStudiesAndTasks;
 
 public class EachElementOfArray {
     public static void main(String[] args) {
