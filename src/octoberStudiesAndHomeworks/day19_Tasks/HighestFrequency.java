@@ -3,7 +3,7 @@ package octoberStudiesAndHomeworks.day19_Tasks;
 public class HighestFrequency {
     public static void main(String[] args) {
 
-        String str = "mesuttttttt kılıçarslan rom turkey and live in tttttttttttttturkey.";
+        String str = "mesuttttttt kılıçarslan ooooooooooooooooooooooooooooorom turkey and live in tttttttttttttturkey.";
         String result = "";
         int max =0;
 
