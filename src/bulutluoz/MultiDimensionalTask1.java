@@ -18,9 +18,8 @@ public class MultiDimensionalTask1 {
         int [] sameIndexAddition = new int[sameIndexPiece]; // this is empty array
 
         for (int i = 0; i < sameIndexAddition.length; i++) {
-            sameIndexAddition[i]  = arr [0][i]+ arr[1][i];
+            sameIndexAddition[i]  = arr [0][i]+ arr[1][i]; // we put the same indexes elements addition into the new array
         }
-
         System.out.println(Arrays.toString(sameIndexAddition)); //[5, 7, 11]
     }
 }
