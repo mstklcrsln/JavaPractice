@@ -1,4 +1,4 @@
-package bulutluoz;
+package bulutluoz.Arrays;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

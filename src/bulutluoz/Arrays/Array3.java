@@ -1,4 +1,4 @@
-package bulutluoz;
+package bulutluoz.Arrays;
 
 public class Array3 {
     public static void main(String[] args) {

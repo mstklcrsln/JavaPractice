@@ -1,4 +1,4 @@
-package bulutluoz;
+package bulutluoz.Methods;
 
 public class Method2 {
 

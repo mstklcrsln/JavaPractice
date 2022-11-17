@@ -1,4 +1,4 @@
-package bulutluoz;
+package bulutluoz.Loops;
 
 import java.util.Scanner;
 

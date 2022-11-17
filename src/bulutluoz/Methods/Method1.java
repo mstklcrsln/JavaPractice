@@ -1,4 +1,4 @@
-package bulutluoz;
+package bulutluoz.Methods;
 
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Scanner;

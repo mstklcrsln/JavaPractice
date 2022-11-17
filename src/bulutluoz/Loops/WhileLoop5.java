@@ -1,4 +1,4 @@
-package bulutluoz;
+package bulutluoz.Loops;
 
 public class WhileLoop5 {
     public static void main(String[] args) {

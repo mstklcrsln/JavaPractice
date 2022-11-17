@@ -1,4 +1,4 @@
-package bulutluoz;
+package bulutluoz.Methods;
 
 public class FindEvenNumber {
     public static void main(String[] args) {
