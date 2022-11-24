@@ -7,14 +7,15 @@ public class Task3 {
         int [] num2= {4,5,6,7,8};
         String common="";
 
-        for (int each: num1) {
+        for (int each1: num1) {
             for (int each2 : num2) {
 
-                if (each==each2) {
+                if (each1==each2) {
                     common += each2+ " ";
                 }
             }
-        }System.out.print("common numbers= " + common);
+        }
+        System.out.print("common numbers= " + common);
     }
 }
 /*
