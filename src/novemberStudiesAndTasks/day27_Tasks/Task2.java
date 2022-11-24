@@ -1,5 +1,6 @@
 package novemberStudiesAndTasks.day27_Tasks;
 
+import javax.swing.plaf.PanelUI;
 import java.util.Arrays;
 
 public class Task2 {
@@ -15,6 +16,15 @@ public class Task2 {
         double [] arr3 = swap1(arr2,0,4);
         System.out.println(Arrays.toString(arr3)); //[500.0, 200.0, 300.0, 400.0, 100.0]
 
+        System.out.println("------------------");
+        char [] array3 = {'a','s','d','f','g','h','h','j','j','i'};
+        char [] arr4 = swap2(array3,0,9);
+        System.out.println(Arrays.toString(arr4)); //[i, s, d, f, g, h, h, j, j, a]
+
+        System.out.println("------------------");
+        String [] array4 ={"Mesut", "Veli", "ahmet", "Osman", "Fatma"};
+        String [] arr5 = swap3(array4,0,4);
+        System.out.println(Arrays.toString(arr5)); //[Fatma, Veli, ahmet, Osman, Mesut]
 
     }
     public static int [] swap (int [] array, int i, int j){
@@ -29,6 +39,21 @@ public class Task2 {
         arr1 [element1] = arr1 [element2];
         arr1 [element2] = tempElement;
         return arr1;
+    }
+
+    public static char [] swap2 (char [] arr2, int i1, int i2) {
+        char temp2 = arr2[i1];
+        arr2 [i1] = arr2 [i2];
+        arr2 [i2]= temp2;
+        return arr2;
+    }
+
+    public static String [] swap3 (String [] str, int a1, int a2){
+
+        String temporary = str [a1];
+        str [a1]= str[a2];
+        str [a2]= temporary;
+        return str;
     }
 
 }
