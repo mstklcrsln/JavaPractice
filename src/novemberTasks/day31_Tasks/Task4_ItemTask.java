@@ -1,13 +1,28 @@
 package novemberTasks.day31_Tasks;
 
 public class Task4_ItemTask {
-    public static void main(String[] args) {
 
+    public String name;
+    public double unitPrice;
+    public int quantity;
 
-
+    public Task4_ItemTask(String name, double unitPrice, int quantity) {
+        this.name = name;
+        this.unitPrice = unitPrice;
+        this.quantity = quantity;
+    }
+    public double  calcCost () {
+        return unitPrice*quantity;
+    }
+    public String toString() {
+        return "Task4_ItemTask{" +
+                "name='" + name + '\'' +
+                ", unitPrice=" + unitPrice +
+                ", quantity=" + quantity +
+                ", Total price" + calcCost() +
+                '}';
     }
 }
-
 /*
 4. Item Task:
 		4.1 Create a class called Item
