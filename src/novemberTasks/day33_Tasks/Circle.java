@@ -1,8 +1,35 @@
 package novemberTasks.day33_Tasks;
 
 public class Circle {
-}
 
+    public static double pi= 3.14;
+    public double radius;
+    public  double diameter;
+    public Circle(double radius, double diameter) {
+        this.radius = radius;
+        this.diameter = diameter;
+    }
+    public double calcArea(){
+       double areaOfCircle = pi*(radius*diameter);
+       return areaOfCircle;
+    }
+    public  double calcPerimeter(){
+        double perimeterOfCircle= pi*diameter;
+        return perimeterOfCircle;
+    }
+    public void pi (){
+        System.out.println(pi);
+    }
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                ", diameter=" + diameter +
+                ", pi=" + pi +
+                ", area of circle=" + calcArea() +
+                ", perimeter of circle=" + calcPerimeter() +
+                '}';
+    }
+}
 /*
 2. Circle Task:
 		1. Create a class named Circle:
