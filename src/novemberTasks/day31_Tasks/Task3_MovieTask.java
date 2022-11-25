@@ -8,11 +8,12 @@ public class Task3_MovieTask {
     public String country, title, genre, releaseDate, director;
     public ArrayList<String> casts = new ArrayList<>();
 
-    public Task3_MovieTask(String country, String title, String releaseDate, String director) {
+    public Task3_MovieTask(String country, String title, String releaseDate, String director, String genre) {
         this.country = country;
         this.title = title;
         this.releaseDate = releaseDate;
         this.director = director;
+        this.genre=genre;
     }
     public void addCast (String name){
         casts.add(name);
