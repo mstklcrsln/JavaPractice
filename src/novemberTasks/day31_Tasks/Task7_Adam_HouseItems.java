@@ -1,8 +1,22 @@
 package novemberTasks.day31_Tasks;
 
-public class Task7_Adam {
+public class Task7_Adam_HouseItems {
 
-
+    public String name;
+    public String color;
+    public int amount;
+    public Task7_Adam_HouseItems(String name, String color, int amount) {
+        this.name = name;
+        this.color = color;
+        this.amount = amount;
+    }
+    public String toString() {
+        return "Task7_Adam_HouseItems{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                ", amount=" + amount +
+                '}';
+    }
 }
 /*
 Task-1
