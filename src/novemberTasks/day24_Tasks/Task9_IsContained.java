@@ -4,7 +4,7 @@ public class Task9_IsContained {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
-        int num = 5;
+        int num = 55;
         boolean isContaine = isIntegerContained(arr,num);
         System.out.println(isContaine);
     }
