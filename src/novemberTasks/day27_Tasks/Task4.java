@@ -1,8 +1,11 @@
 package novemberTasks.day27_Tasks;
 
+import java.time.LocalDate;
+
 public class Task4 {
 
     public static void main(String[] args) {
+
 
         String str = "JAVA java";
         int upperLetters = 0;
@@ -19,6 +22,8 @@ public class Task4 {
             System.out.println("isEqual = " + isEqual); //true
             //
         }
+
+
     }
 /*
 4. Write program that returns true if the total number of upper case characters are equal to total number of Lowercase characters of a string

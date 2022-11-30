@@ -7,7 +7,7 @@ public class Task1 {
 
         int [] array= {10, 20, 30, 40, 50};
 
-       int [] newArray = threeInt(array, 2, 100);
+       int [] newArray = threeInt(array, 1, 999999);
         System.out.println(Arrays.toString(newArray)); //[10, 20, 100, 30, 40, 50]
 
         System.out.println("-------------------------");
