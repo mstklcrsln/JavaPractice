@@ -17,6 +17,6 @@ public class Omer {
             }
 
         }
-        System.out.println("result = " + result);
+        System.out.println("result = " + result); //result = n-o-z-a-m-a
     }
 }
