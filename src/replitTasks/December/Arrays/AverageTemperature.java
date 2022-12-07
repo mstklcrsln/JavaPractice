@@ -2,7 +2,7 @@ package replitTasks.December.Arrays;
 
 import java.util.Scanner;
 
-public class AverageTemprature {
+public class AverageTemperature {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
