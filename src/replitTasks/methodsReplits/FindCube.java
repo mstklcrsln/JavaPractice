@@ -1,23 +1,17 @@
-import java.util.Scanner;
+/* import java.util.Scanner;
 class Main {
-
     public static void cube(){
-
         int n = new Scanner(System.in).nextInt();
-
         //TYPE YOUR CODE BELOW:
 
+        Scanner scan = new Scanner(System.in);
 
-
+        System.out.println(n * n * n);
 
     }
    public static void main(String[] args) {
-
-
-
+        cube();
     }
-
-
 }
 /*
 ### Finish the given method `cube()` to print the cubed value of the given `n` number.
