@@ -10,10 +10,10 @@ public class Has_55 {
 
         //TYPE YOUR CODE BELOW:
         boolean has55=false;
-        int searhed = 5;
+        int searched = 5;
 
         for (int i = 0; i <nums.length-1 ; i++) {
-            if (nums[i]==searhed && nums[i+1]==searhed){
+            if (nums[i]==searched && nums[i+1]==searched){
                 has55= true;
                 break;
             }
