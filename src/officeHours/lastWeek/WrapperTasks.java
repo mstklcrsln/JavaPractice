@@ -2,7 +2,7 @@ package officeHours.lastWeek;
 
 import java.util.Scanner;
 
-public class Tasks {
+public class WrapperTasks {
     public static void main(String[] args) {
 
          /*
