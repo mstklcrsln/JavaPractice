@@ -5,7 +5,7 @@ public class WrapperClasses {
     public static void main(String[] args) {
 
         /*
-        parseInt()  : parse a string and return its integer value
+        parseInt()      : parse a string and return its integer value
         valueOf()       : convert a string to an Integer object
         toString        :take a int/Integer's string value (convert it to string object)
         Integer.max and min     : finds max and min of ınteger value
